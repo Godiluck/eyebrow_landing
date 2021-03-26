@@ -1,7 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="27c6f77d-2fac-46e6-a565-3442d38575aa" name="Default Changelist" comment="" />
+    <list default="true" id="27c6f77d-2fac-46e6-a565-3442d38575aa" name="Default Changelist" comment="1 commit">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -19,7 +25,13 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -29,11 +41,48 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1616772098190</updated>
-      <workItem from="1616772099321" duration="1263000" />
+      <workItem from="1616772099321" duration="7171000" />
     </task>
+    <task id="LOCAL-00001" summary="1 commit">
+      <created>1616773603165</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1616773603165</updated>
+    </task>
+    <task id="LOCAL-00002" summary="1 commit">
+      <created>1616773815568</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1616773815568</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="1 commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="1 commit" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="511" y="304" key="Github.ShareDialog" timestamp="1616773502486">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="511" y="304" key="Github.ShareDialog/0.0.1280.800@0.0.1280.800" timestamp="1616773502486" />
+    <state x="427" y="112" key="Github.UntrackedFilesDialog" timestamp="1616773530835">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="427" y="112" key="Github.UntrackedFilesDialog/0.0.1280.800@0.0.1280.800" timestamp="1616773530835" />
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2" timestamp="1616773823111">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="240" y="140" key="Vcs.Push.Dialog.v2/0.0.1280.800@0.0.1280.800" timestamp="1616773823111" />
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup" timestamp="1616787342814">
+      <screen x="0" y="0" width="1280" height="800" />
+    </state>
+    <state x="305" y="124" width="670" height="676" key="search.everywhere.popup/0.0.1280.800@0.0.1280.800" timestamp="1616787342814" />
   </component>
 </project>

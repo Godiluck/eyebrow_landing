@@ -1,5 +1,4 @@
 <!DOCTYPE html>
-<!-- saved from url=(0046)https://it-perfection-brows.shoping-deals.com/ -->
 <html lang="ru">
 <head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
 
@@ -11,14 +10,12 @@
 
     <title>Perfection Brows триммер для бровей - EU (Европа)</title>
 	    <!-- Favicon -->
-    <link rel="icon" href="https://it-perfection-brows.shoping-deals.com/img/products_new/6363.png" type="image/png">
-    <link rel="shortcut icon" href="https://it-perfection-brows.shoping-deals.com/img/products_new/6363.png" type="image/png">
+    <link rel="icon" href="" type="image/png">
+    <link rel="shortcut icon" href="" type="image/png">
 
     <!-- OG -->
-    <meta property="og:url" content="https://it-perfection-brows.shoping-deals.com/">
     <meta property="og:type" content="website">
     <meta property="og:title" content="Perfection Brows триммер для бровей - EU (Европа)">
-    <meta property="og:image" content="https://it-perfection-brows.shoping-deals.com/img/products_new/6363.png">
     <meta property="og:image:width" content="150">
     <meta property="og:image:height" content="150">
     <meta property="og:site_name" content="Perfection Brows триммер для бровей - EU (Европа)">
@@ -43,7 +40,7 @@
 </head>
 <body style="">
 <script type="text/javascript">
-  var landing_notifiers = new Object(),
+  var landing_notifiers = {},
     price, currency, delivery_price;
 
   for (key in $jsonData.prices) {
@@ -72,7 +69,7 @@
 <script type="text/javascript" src="./index_files/func.js"></script>
 
 <script>
-  var formIsSubmitted = false;
+  let formIsSubmitted = false;
 </script>
 
 <script type="text/javascript" src="./index_files/unload_submit.js"></script>
@@ -176,7 +173,7 @@
             </div>
         </div>
         <div class="devmenu1">
-            <a class="button-m devmenu1 lt16" href="https://it-perfection-brows.shoping-deals.com/#order_form">Ordinare ora</a>
+            <a class="button-m devmenu1 lt16" href="#order_form">Ordinare ora</a>
         </div>
         <div class="stock lt17">Rimangono <span class="lastpack">26</span> depilatori in offerta</div>
     </div>
@@ -188,7 +185,7 @@
         <div class="videobox clearfix">
             <div class="videobox-left">
                 <div class="video-container">
-                    <iframe width="420" height="236" src="./index_files/0d266c6b875371c2ff58e8213d9dd25e1615366010.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <iframe width="420" height="236" src="./index_files/video1.mp4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                 </div>
             </div>
             <div class="videobox-right">
@@ -208,7 +205,8 @@
 </section>
 <section class="block4">
     <div class="wrap">
-        <h2 class="title lt20">CARATTERISTICHE<span></span></h2><img alt="Perfection Brows" class="tovar hidden" src="./index_files/brows-1.png">
+        <h2 class="title lt20">CARATTERISTICHE<span></span></h2>
+        <img alt="Perfection Brows" class="tovar hidden" src="./index_files/brows-1.png">
         <ul class="job ul-fix">
             <li>
                 <p class="lt21"><b>Tipo: </b>depilatore</p>
@@ -258,7 +256,7 @@
             </li>
         </ul>
         <div class="devmenu1">
-            <a class="button-m lt32" href="https://it-perfection-brows.shoping-deals.com/#order_form">Effettuare l’ordine</a>
+            <a class="button-m lt32" href="#order_form">Effettuare l’ordine</a>
         </div>
     </div>
 </section>
@@ -351,7 +349,7 @@
         <div class="videobox clearfix">
             <div class="videobox-left">
                 <div class="video-container">
-                    <iframe width="420" height="236" src="./index_files/06f2159f8927eecebef72af139d786a81615366017.html" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
+                    <iframe width="420" height="236" src="./index_files/video2.mp4" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
                 </div>
             </div>
             <div class="videobox-right">
@@ -381,92 +379,38 @@
             <h3 class="lt54">Ordinate oggi</h3>
             <h3 class="lt55">ricevete lo sconto</h3>
             <h3 class="lt56">ed un REGALO!</h3>
-            <form action="https://it-perfection-brows.shoping-deals.com/order" class="off24_form orderformcdn order_form" id="order_form0" method="POST">
-                                    <select class="country_select form-control country_chang" name="country" id="country">
-                                                    <option value="260" selected="selected">Italia</option>
-                                                    <option value="289">Romania</option>
-                                            </select>
-                
+            <form action="https://it-perfection-brows.shoping-deals.com/order" class="off24_form orderformcdn cpa_order_form" id="order_form0" method="POST">
+                <label for="country"></label><select id="country" name="country" class="country_select"></select>
 
-                <input class="field" name="name" placeholder="Nome" type="text"><input type="hidden" id="ts_check" name="ts_check" value="5e4a10e182cb282dc6248db1284f40fd">
-                <input class="field" name="phone" placeholder="Telefono" type="tel">
+
+                <label>
+                    <input class="field" name="name" placeholder="Nome" type="text">
+                </label>
+                <label>
+                    <input class="field" name="phone" placeholder="Telefono" type="tel">
+                </label>
                 <div class="price-form">
                     <p><b class="lt57">Prezzo con lo sconto:</b></p><span class="price_land_s1 price_main"><span class="price_land_s1">49</span><span class="price_land_curr">€</span></span>
                 </div>
-                <p class="lt58">Prezzo standard:<span class="price_land_s2 price_old"><span class="price_land_s2">98</span><span class="price_land_curr">€</span></span></p><button class="button-m lt59">Effettuare l’ordine</button>
+                <p class="lt58">Prezzo standard:<span class="price_land_s2 price_old">
+                    <span class="price_land_s2">98</span>
+                    <span class="price_land_curr">€</span></span>
+                </p>
+                <button class="button-m lt59">Effettuare l’ordine</button>
 
-                <input type="hidden" name="address" value="">
-                <input type="hidden" name="product_count" id="product_count" value="1">
-                <input type="hidden" name="number_product" value="6363">
-                <input type="hidden" name="split_test_id" value="0">
-<input type="hidden" name="split_test" value="0">
-<input type="hidden" name="split_test_host" value="it-perfection-brows.shoping-deals.com">
-<input type="hidden" name="fchck" value="a61d28a467ffa62796504333be68b1eb687e7676">
-<input type="hidden" name="ucfi" id="ucfi" value="0">            </form>
+            </form>
             <div class="stock lt60">Rimangono<span class="lastpack">26</span>depilatori in offerta</div>
         </div>
     </div>
 </section>
 
 <div class="copyright">
-            <img src="./index_files/rekv.png" style="display:block;margin:0 auto">
+            <img src="./index_files/rekv.png" alt="" style="display:block;margin:0 auto">
 
-<div style="text-align: right"><img src="./index_files/1001transits.png" style="display: inline-block !important;"></div>
+<div style="text-align: right"><img src="./index_files/1001transits.png" alt="" style="display: inline-block !important;"></div>
         <br>
     <a href="https://it-perfection-brows.shoping-deals.com/EN" target="_blank">Privacy Policy</a>
 </div>
-
-	
-<!--{-->
-<!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-(function (d, w, c) {
-    (w[c] = w[c] || []).push(function() {
-        try {
-            w.yaCounter22765945 = new Ya.Metrika({id:22765945,
-                    webvisor:true,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true});
-        } catch(e) { }
-    });
- 
-    var n = d.getElementsByTagName("script")[0],
-        s = d.createElement("script"),
-        f = function () { n.parentNode.insertBefore(s, n); };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src = (d.location.protocol == "https:" ? "https:" : "http:") + "//mc.yandex.ru/metrika/watch.js";
- 
-    if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-    } else { f(); }
-})(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="//mc.yandex.ru/watch/22765945" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-<!--||-->
-<!--<script async src="https://fkthe.com/p.js"></script>-->
-<script>
-(function (d, w) {
-    var params = '';
-    if (typeof w.orderIdFull !== 'undefined') {
-        params = '?id=' + w.orderIdFull;
-    }
-    
-    var s = d.createElement("script"),
-        f = function () { d.body.appendChild(s); };
-    s.type = "text/javascript";
-    s.async = true;
-    s.src ="https://fkthe.com/p.js" + params;
-
-    if (w.opera == "[object Opera]") {
-        d.addEventListener("DOMContentLoaded", f, false);
-    } else { f(); }
-})(document, window);
-
-</script><script type="text/javascript" async="" src="./index_files/p.js"></script>
-<!--}-->
 
 <script src="/iclick/js/alarm.js"></script>
 
